@@ -1,5 +1,15 @@
 {
   "devDependencies": {
     "eslint": "^8.6.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
   }
 }
